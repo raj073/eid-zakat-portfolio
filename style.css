@@ -1,0 +1,277 @@
+body {
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#topPageBanner {
+    background-image: linear-gradient(90deg, black, transparent), url(media/images/topbanner.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    color: azure;
+    text-align: left;
+
+
+}
+
+#topPageHeading {
+    width: 50%;
+    margin-left: -270px;
+}
+
+#topPageHeading h1 {
+    font-size: 40px;
+
+}
+
+#topPageHeading p {
+    font-size: 17px;
+    line-height: 1.5;
+
+}
+
+
+#topPageHeading h1 {
+    margin-top: 100px;
+}
+
+
+.donateNowButton {
+    background: linear-gradient(45deg, tomato, brown);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+#sectionDonationExplore {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#donationExploreContainer {
+    display: flex;
+    margin: 10px 80px;
+    justify-content: center;
+}
+
+.donationExploreDiv1 {
+    text-align: left;
+    padding: 2% 2%;
+}
+
+.donationExploreDiv1 h1 {
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+.donationExploreDiv1 p {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#sectionSurvive {
+    margin-top: 80px;
+}
+
+#surviveContainer {
+    display: flex;
+    margin: 10px 80px;
+    justify-content: center;
+
+}
+
+.surviveDiv1 {
+    padding: 2% 2%;
+}
+
+.surviveDiv1 img {
+    height: 477;
+    width: 456;
+}
+
+.surviveDiv2 {
+    text-align: left;
+    padding: 9% 9%;
+}
+
+.surviveDiv2 h1 {
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+.surviveDiv2 p {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#sectionDirectHelp {
+    margin-top: 70px;
+    text-align: center;
+}
+
+#directHelpContainer {
+    margin-top: 30px;
+}
+
+#directHelpHeader h1 {
+    font-size: 45px;
+    margin-bottom: -5px;
+}
+
+#directHelpHeader p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#directHelpContainerDiv {
+    display: flex;
+    justify-content: center;
+    margin: 10px 80px;
+}
+
+.boxDirectHelp {
+    display: flex;
+    justify-content: center;
+    height: 170px;
+    width: 350px;
+    background-color: rgb(254, 244, 245);
+    margin-left: 2%;
+    padding: 2% 2%;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.boxDirectHelpImage {
+    padding: 6% 2%;
+}
+
+.boxDirectHelpText {
+    padding: 0% 5%;
+}
+
+.boxDirectHelpText h2 {
+    font-size: 20px;
+}
+
+#boxDirectHelpPgraph {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#directHelpContainer2ndDiv {
+    display: flex;
+    justify-content: center;
+    margin: 10px 80px;
+}
+
+#imageShowDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.imageShowBox {
+    width: 315px;
+}
+
+.imageShowBox img {
+    width: 280px;
+    height: 290px;
+}
+
+
+#sectionExtendCharity {
+    margin-top: 70px;
+}
+
+#extendCharityHeader h1 {
+    font-size: 40px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+
+#extendCharityHeader p {
+    font-size: 18px;
+    margin-bottom: -5px;
+    text-align: center;
+    font-weight: normal;
+}
+
+#extendCharityContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.extendCharityZakatFund {
+    width: 275px;
+    height: 380px;
+    box-sizing: border-box;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    padding-left: 90px;
+    margin-left: 30px;
+    margin-bottom: 85px;
+}
+
+.extendCharityZakatFundImage img {
+    width: 275px;
+    height: 150px;
+    margin-left: -91px;
+    margin-top: -1px;
+}
+
+.extendCharityZakatFundText {
+    text-align: left;
+    margin-left: -75px;
+
+}
+
+.extendCharityZakatFundText h3 {
+    font-size: 20px;
+
+}
+
+.extendCharityZakatFundText p {
+    font-weight: normal;
+    margin-top: -12px;
+    font-size: 16px;
+    text-justify: inter-word;
+
+
+}
+
+.extendCharityZakatFundTextAnchor {
+    color: #EF233C;
+}
+
+footer {
+    padding: 10px 10px;
+    margin: 0px;
+    background-color: black;
+    text-align: center;
+}
+
+#footerHeading {
+    color: #EF233C;
+    margin: 0px;
+    font-family: 'Lobster', cursive;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+footer p {
+    margin: 0px;
+    color: floralwhite;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
