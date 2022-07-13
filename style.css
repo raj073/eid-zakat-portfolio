@@ -275,3 +275,91 @@ footer p {
     line-height: 1.5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+
+.topNavbar,
+.leftLogo,
+.topNavbarLinks,
+.menuBar,
+.serviesSubMenu {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.menuBar a {
+    text-decoration: none;
+}
+
+.menuBar li {
+    list-style: none;
+}
+
+.topNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    background-color: teal;
+    color: white;
+}
+
+.topNavbarLinks a {
+    color: white;
+}
+
+.leftLogo {
+    font-size: 20px;
+}
+
+.menuBar {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menuBar li {
+    padding: 5px 14px;
+}
+
+.menuBar li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+/* DROPDOWN MENU */
+
+.listServices {
+    position: relative;
+}
+
+.serviesSubMenu {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute;
+    /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+}
+
+.serviesSubMenu li+li {
+    margin-top: 10px;
+}
+
+.serviesSubMenu li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+
+.serviesSubMenu li:hover {
+    background-color: #4c9e9e;
+}
+
+.listServices:hover .serviesSubMenu {
+    display: block;
+}
